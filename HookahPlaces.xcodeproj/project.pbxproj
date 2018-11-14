@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78BD1D0713A7CBE922B01D36 /* Pods_HookahPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B1356E86B0C39B75ACD31F /* Pods_HookahPlaces.framework */; };
+		7A1CC5FB21980FEC0089A735 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CC5FA21980FEC0089A735 /* PageController.swift */; };
+		7A1CC5FD2198C2000089A735 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CC5FC2198C2000089A735 /* LocationManager.swift */; };
+		7A72DB8A219783CC004C1B03 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A72DB89219783CC004C1B03 /* MapController.swift */; };
+		7AA11E35218CE31000C80D98 /* ImageUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA11E34218CE31000C80D98 /* ImageUserCell.swift */; };
+		7AA11E37218CE31F00C80D98 /* InfoUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA11E36218CE31F00C80D98 /* InfoUserCell.swift */; };
+		7AA11E39218CE32C00C80D98 /* CurrentPlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA11E38218CE32C00C80D98 /* CurrentPlaceCell.swift */; };
+		7AA11E3B218CE35600C80D98 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA11E3A218CE35600C80D98 /* LoginCell.swift */; };
+		7AA11E3E218CF34200C80D98 /* DetailPlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA11E3D218CF34200C80D98 /* DetailPlaceController.swift */; };
+		7AD6F1E721907ACB006C9D9A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6F1E621907ACB006C9D9A /* LoginController.swift */; };
+		7AD6F1E92190984C006C9D9A /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6F1E82190984C006C9D9A /* SignupController.swift */; };
+		7AD6F1EB21909A06006C9D9A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6F1EA21909A06006C9D9A /* Extension.swift */; };
+		7AD6F1ED2190B31F006C9D9A /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6F1EC2190B31F006C9D9A /* SettingsController.swift */; };
+		7AF6D257218CB560005324BC /* PlaceMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6D256218CB560005324BC /* PlaceMainCell.swift */; };
+		7AF6D25A218CB5A0005324BC /* PlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6D259218CB5A0005324BC /* PlacesController.swift */; };
+		7AF6D25C218CB5B1005324BC /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6D25B218CB5B1005324BC /* ProfileController.swift */; };
+		7AF6D25F218CBB3F005324BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6D25E218CBB3F005324BC /* GoogleService-Info.plist */; };
 		7AF7640121871A530058A13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7640021871A530058A13D /* AppDelegate.swift */; };
-		7AF7640321871A530058A13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7640221871A530058A13D /* ViewController.swift */; };
 		7AF7640621871A530058A13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7640421871A530058A13D /* Main.storyboard */; };
 		7AF7640921871A530058A13D /* HookahPlaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7640721871A530058A13D /* HookahPlaces.xcdatamodeld */; };
 		7AF7640B21871A540058A13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7640A21871A540058A13D /* Assets.xcassets */; };
 		7AF7640E21871A540058A13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7640C21871A540058A13D /* LaunchScreen.storyboard */; };
+		7AF7641621871F5C0058A13D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7641521871F5C0058A13D /* Model.swift */; };
+		7AF76418218720170058A13D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF76417218720170058A13D /* CoreDataManager.swift */; };
+		7AF7641B218721CF0058A13D /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF76419218721CF0058A13D /* Place+CoreDataClass.swift */; };
+		7AF7641C218721CF0058A13D /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7641A218721CF0058A13D /* Place+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1CC5FA21980FEC0089A735 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		7A1CC5FC2198C2000089A735 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7A72DB89219783CC004C1B03 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		7AA11E34218CE31000C80D98 /* ImageUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUserCell.swift; sourceTree = "<group>"; };
+		7AA11E36218CE31F00C80D98 /* InfoUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUserCell.swift; sourceTree = "<group>"; };
+		7AA11E38218CE32C00C80D98 /* CurrentPlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPlaceCell.swift; sourceTree = "<group>"; };
+		7AA11E3A218CE35600C80D98 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		7AA11E3D218CF34200C80D98 /* DetailPlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceController.swift; sourceTree = "<group>"; };
+		7AD6F1E621907ACB006C9D9A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7AD6F1E82190984C006C9D9A /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		7AD6F1EA21909A06006C9D9A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7AD6F1EC2190B31F006C9D9A /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		7AF6D256218CB560005324BC /* PlaceMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMainCell.swift; sourceTree = "<group>"; };
+		7AF6D259218CB5A0005324BC /* PlacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesController.swift; sourceTree = "<group>"; };
+		7AF6D25B218CB5B1005324BC /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		7AF6D25E218CBB3F005324BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7AF763FD21871A530058A13D /* HookahPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF7640021871A530058A13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AF7640221871A530058A13D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AF7640521871A530058A13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AF7640821871A530058A13D /* HookahPlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HookahPlaces.xcdatamodel; sourceTree = "<group>"; };
 		7AF7640A21871A540058A13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF7640D21871A540058A13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF7640F21871A540058A13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF7641521871F5C0058A13D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7AF76417218720170058A13D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7AF76419218721CF0058A13D /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Place+CoreDataClass.swift"; path = "HookahPlaces/Place+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7AF7641A218721CF0058A13D /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Place+CoreDataProperties.swift"; path = "HookahPlaces/Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BB616A1EBC2FDC9FD3B75A6B /* Pods-HookahPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahPlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-HookahPlaces/Pods-HookahPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		C0B1356E86B0C39B75ACD31F /* Pods_HookahPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookahPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AA0625F1A5492087B1DC6F /* Pods-HookahPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahPlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HookahPlaces/Pods-HookahPlaces.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BD1D0713A7CBE922B01D36 /* Pods_HookahPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AA11E3C218CEB1E00C80D98 /* Profile Table View */ = {
+			isa = PBXGroup;
+			children = (
+				7AA11E34218CE31000C80D98 /* ImageUserCell.swift */,
+				7AA11E36218CE31F00C80D98 /* InfoUserCell.swift */,
+				7AA11E38218CE32C00C80D98 /* CurrentPlaceCell.swift */,
+				7AA11E3A218CE35600C80D98 /* LoginCell.swift */,
+			);
+			path = "Profile Table View";
+			sourceTree = "<group>";
+		};
+		7AF6D254218CB533005324BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A1CC5FA21980FEC0089A735 /* PageController.swift */,
+				7AF6D259218CB5A0005324BC /* PlacesController.swift */,
+				7AF6D25B218CB5B1005324BC /* ProfileController.swift */,
+				7AA11E3D218CF34200C80D98 /* DetailPlaceController.swift */,
+				7AD6F1E621907ACB006C9D9A /* LoginController.swift */,
+				7AD6F1E82190984C006C9D9A /* SignupController.swift */,
+				7AD6F1EC2190B31F006C9D9A /* SettingsController.swift */,
+				7A72DB89219783CC004C1B03 /* MapController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7AF6D255218CB542005324BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7641521871F5C0058A13D /* Model.swift */,
+				7A1CC5FC2198C2000089A735 /* LocationManager.swift */,
+				7AF7641D218721E60058A13D /* CoreData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AF6D258218CB56B005324BC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7AF6D256218CB560005324BC /* PlaceMainCell.swift */,
+				7AA11E3C218CEB1E00C80D98 /* Profile Table View */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7AF6D25D218CB5B9005324BC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7640421871A530058A13D /* Main.storyboard */,
+				7AF7640C21871A540058A13D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		7AF763F421871A530058A13D = {
 			isa = PBXGroup;
 			children = (
 				7AF763FF21871A530058A13D /* HookahPlaces */,
 				7AF763FE21871A530058A13D /* Products */,
+				B6CFB62A0D1C7839E29D6DE4 /* Pods */,
+				9B667C08D3F350DDAB5DB782 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +155,46 @@
 		7AF763FF21871A530058A13D /* HookahPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				7AF6D254218CB533005324BC /* Controllers */,
+				7AF6D258218CB56B005324BC /* Cells */,
+				7AF6D25D218CB5B9005324BC /* Storyboards */,
+				7AF6D255218CB542005324BC /* Model */,
 				7AF7640021871A530058A13D /* AppDelegate.swift */,
-				7AF7640221871A530058A13D /* ViewController.swift */,
-				7AF7640421871A530058A13D /* Main.storyboard */,
 				7AF7640A21871A540058A13D /* Assets.xcassets */,
-				7AF7640C21871A540058A13D /* LaunchScreen.storyboard */,
 				7AF7640F21871A540058A13D /* Info.plist */,
-				7AF7640721871A530058A13D /* HookahPlaces.xcdatamodeld */,
+				7AF6D25E218CBB3F005324BC /* GoogleService-Info.plist */,
+				7AD6F1EA21909A06006C9D9A /* Extension.swift */,
 			);
 			path = HookahPlaces;
+			sourceTree = "<group>";
+		};
+		7AF7641D218721E60058A13D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7AF76417218720170058A13D /* CoreDataManager.swift */,
+				7AF76419218721CF0058A13D /* Place+CoreDataClass.swift */,
+				7AF7641A218721CF0058A13D /* Place+CoreDataProperties.swift */,
+				7AF7640721871A530058A13D /* HookahPlaces.xcdatamodeld */,
+			);
+			name = CoreData;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B667C08D3F350DDAB5DB782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0B1356E86B0C39B75ACD31F /* Pods_HookahPlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6CFB62A0D1C7839E29D6DE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA0625F1A5492087B1DC6F /* Pods-HookahPlaces.debug.xcconfig */,
+				BB616A1EBC2FDC9FD3B75A6B /* Pods-HookahPlaces.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF7641221871A540058A13D /* Build configuration list for PBXNativeTarget "HookahPlaces" */;
 			buildPhases = (
+				E32B51DB265CEB2C58677D5F /* [CP] Check Pods Manifest.lock */,
 				7AF763F921871A530058A13D /* Sources */,
 				7AF763FA21871A530058A13D /* Frameworks */,
 				7AF763FB21871A530058A13D /* Resources */,
+				2CCCEC90A7653086FD9AD6E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF7640E21871A540058A13D /* LaunchScreen.storyboard in Resources */,
+				7AF6D25F218CBB3F005324BC /* GoogleService-Info.plist in Resources */,
 				7AF7640B21871A540058A13D /* Assets.xcassets in Resources */,
 				7AF7640621871A530058A13D /* Main.storyboard in Resources */,
 			);
@@ -133,14 +266,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CCCEC90A7653086FD9AD6E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HookahPlaces/Pods-HookahPlaces-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HookahPlaces/Pods-HookahPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E32B51DB265CEB2C58677D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookahPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AF763F921871A530058A13D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD6F1ED2190B31F006C9D9A /* SettingsController.swift in Sources */,
+				7AA11E3E218CF34200C80D98 /* DetailPlaceController.swift in Sources */,
+				7AF7641C218721CF0058A13D /* Place+CoreDataProperties.swift in Sources */,
+				7AF6D257218CB560005324BC /* PlaceMainCell.swift in Sources */,
+				7A1CC5FB21980FEC0089A735 /* PageController.swift in Sources */,
+				7AA11E37218CE31F00C80D98 /* InfoUserCell.swift in Sources */,
+				7AD6F1E721907ACB006C9D9A /* LoginController.swift in Sources */,
 				7AF7640921871A530058A13D /* HookahPlaces.xcdatamodeld in Sources */,
-				7AF7640321871A530058A13D /* ViewController.swift in Sources */,
 				7AF7640121871A530058A13D /* AppDelegate.swift in Sources */,
+				7A72DB8A219783CC004C1B03 /* MapController.swift in Sources */,
+				7AA11E3B218CE35600C80D98 /* LoginCell.swift in Sources */,
+				7AF76418218720170058A13D /* CoreDataManager.swift in Sources */,
+				7AF6D25C218CB5B1005324BC /* ProfileController.swift in Sources */,
+				7AD6F1EB21909A06006C9D9A /* Extension.swift in Sources */,
+				7AF6D25A218CB5A0005324BC /* PlacesController.swift in Sources */,
+				7AD6F1E92190984C006C9D9A /* SignupController.swift in Sources */,
+				7AF7641621871F5C0058A13D /* Model.swift in Sources */,
+				7A1CC5FD2198C2000089A735 /* LocationManager.swift in Sources */,
+				7AA11E39218CE32C00C80D98 /* CurrentPlaceCell.swift in Sources */,
+				7AA11E35218CE31000C80D98 /* ImageUserCell.swift in Sources */,
+				7AF7641B218721CF0058A13D /* Place+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +482,7 @@
 		};
 		7AF7641321871A540058A13D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AA0625F1A5492087B1DC6F /* Pods-HookahPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,7 +492,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.momotov.HookahPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.momotov.HookahPlacesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +501,7 @@
 		};
 		7AF7641421871A540058A13D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB616A1EBC2FDC9FD3B75A6B /* Pods-HookahPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,7 +511,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.momotov.HookahPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.momotov.HookahPlacesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
